@@ -1,7 +1,7 @@
-import React from "react";
-
 const CustomContainer = ({ children }) => {
-  return <div className="px-5 container m-auto pt-40 pb-10">{children}</div>;
+  return (
+    <div className="container m-auto px-5 py-20 text-white">{children}</div>
+  );
 };
 
 export default CustomContainer;

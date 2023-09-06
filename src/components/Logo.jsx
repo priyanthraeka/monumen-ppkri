@@ -3,15 +3,13 @@ import Image from "next/image";
 
 const Logo = ({ size }) => {
   return (
-    <a href="/">
-      <Image
-        src={logo}
-        alt="Logo"
-        width={size}
-        height={size}
-        className="w-auto h-auto"
-      />
-    </a>
+    <Image
+      src={logo}
+      alt="Logo"
+      width={size}
+      height={size}
+      className="w-auto h-auto"
+    />
   );
 };
 

@@ -10,4 +10,9 @@ export const VIDEOS = [
     sourceName: "Korps Menwa Ugraçena Bali",
     source: "https://www.youtube.com/embed/v4JprrMz_qo",
   },
+  {
+    title: "ZIARAH DAN SYUKURAN HARVETNAS TINGKAT PROVINSI BALI 2023",
+    sourceName: "news balitv",
+    source: "https://www.youtube.com/embed/eTIjIrTtjTk",
+  },
 ];

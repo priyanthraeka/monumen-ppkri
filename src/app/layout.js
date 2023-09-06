@@ -1,10 +1,11 @@
 import Navbar from "@/components/Navbar/Navbar";
 import "./globals.css";
-import { Inter } from "next/font/google";
+import { Inter, Rubik } from "next/font/google";
 import Header from "@/components/Header/Header";
 import Footer from "@/components/Footer/Footer";
+import JumpToTopButton from "@/components/JumpToTopButton";
 
-const inter = Inter({ subsets: ["latin"] });
+const rubik = Rubik({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Monumen PPKRI 1945",
@@ -15,10 +16,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={rubik.className}>
+        <JumpToTopButton />
         <Header />
         <Navbar />
-        <div className="pt-16 lg:pt-[120px]">{children}</div>
+        <div className="mt-16 lg:mt-[120px] bg-[#222]">{children}</div>
         <Footer />
       </body>
     </html>

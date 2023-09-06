@@ -14,8 +14,12 @@ const navbarLinks = [
     title: "Lokasi",
   },
   {
-    url: "#",
+    url: "/galeri",
     title: "Galeri",
+  },
+  {
+    url: "/berita",
+    title: "Berita",
   },
   {
     url: "/about-us",
@@ -31,10 +35,10 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-white h-16 shadow-lg fixed right-0 top-0 lg:top-14 left-0">
+    <nav className="bg-white h-16 shadow-lg absolute right-0 top-0 lg:top-14 left-0">
       <div className="flex items-center justify-between h-full px-5 container m-auto">
         <h1 className="font-bold text-xl">
-          <Logo size={80} />
+          <Logo size={50} />
         </h1>
         <div
           className="block lg:hidden cursor-pointer"

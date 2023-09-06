@@ -7,7 +7,7 @@ import {
 
 const Header = () => {
   return (
-    <div className="hidden md:block h-14 bg-[#111] text-white fixed top-0 right-0 left-0">
+    <div className="hidden md:block h-14 bg-[#111] text-white absolute top-0 right-0 left-0">
       <div className="flex items-center justify-between h-full px-5 container m-auto text-base">
         <ul className="flex gap-5">
           <li className="flex gap-2 items-center justify-center">
@@ -20,14 +20,9 @@ const Header = () => {
             Senin - Jumat (09:00 - 17:00)
           </li>
         </ul>
-        <ul className="flex gap-2 items-center">
+        <ul className="flex gap-5 items-center">
           <li>
-            <a href="#">
-              <FaInstagram size={22} />
-            </a>
-          </li>
-          <li>
-            <a href="#">
+            <a href="https://wa.me/6281338009501">
               <FaWhatsapp size={22} />
             </a>
           </li>
